@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: orangered;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
+
+input,
+label {
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+label {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  font-size: large;
+}
+
+#check-number {
+  display: block;
+  margin-top: 1rem;
+  margin: auto;
+  cursor: pointer;
+  font-size: large;
+  border: 2px solid black;
+  padding: 1rem;
+  background-color: #ff1e00;
+  border-radius: 5px;
+}
+
+#output-box {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: x-large;
+}
+
+.footer {
+  background-color: orange;
+  margin-top: 300px;
+  text-align: center;
+}
+
+.footer span a {
+  /* list-style: none; */
+  /* text-decoration: none; */
+  color: black;
+}
